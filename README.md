@@ -10,7 +10,7 @@ git clone https://github.com/VLL-HD/FrEIA.git
 cd FrEIA
 git checkout 550257b10af7d8772b08d4aa9b18772e2c02
 python setup.py install
-
+```
 
 ## Usage
 
