@@ -7,7 +7,7 @@ import argparse
 
 import torch
 
-import classifier_embed_contras as classifier2
+import classifier as classifier2
 from utils import *
 import torch.nn as nn
 import torch.optim as optim
