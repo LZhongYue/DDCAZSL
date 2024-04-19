@@ -12,7 +12,7 @@ git checkout 550257b10af7d8772b08d4aa9b18772e2c02
 python setup.py install
 ```
 
-## Usage
+## Data
 
 You can download [datasets](https://drive.google.com/drive/folders/1IcQWpKk9ZBYlE1x4rRKsF9kdj5KXe6PA?usp=sharing) in data folder and run the scripts:
 ```
