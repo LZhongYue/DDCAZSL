@@ -71,18 +71,12 @@ parser.add_argument('--cls_weight', type=float, default=0.001, help='weight of t
 parser.add_argument('--nclass_all', type=int, default=50, help='number of all classes')
 parser.add_argument('--nclass_seen', type=int, default=40, help='number of all classes')
 
-###########
-#术高莫用
-############
 parser.add_argument('--gammaD', type=int, default=10, help='weight on the W-GAN loss')
 parser.add_argument('--gammaG', type=float, default=0.001, help='weight on the W-GAN loss')
 parser.add_argument('--lr_d', type=float, default=0.0004, help='learning rate to train discriminator')
 parser.add_argument('--lambda1', type=float, default=10, help='gradient penalty regularizer, following WGAN-GP')
 parser.add_argument('--critic_iter', type=int, default=2, help='critic iteration, following WGAN-GP')
 
-###########
-#术高莫用
-############
 opt = parser.parse_args()
 # os.environ['CUDA_VISIBLE_DEVICES'] = opt.gpu
 
