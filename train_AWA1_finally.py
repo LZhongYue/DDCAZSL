@@ -59,18 +59,12 @@ parser.add_argument('--clusters', type=int, default=3)
 parser.add_argument('--gpu', default="0", help='index of GPU to use')
 parser.add_argument('--nhF', type=int, default=2048, help='size of the hidden units comparator network F')
 
-###########
-#术高莫用
-############
 parser.add_argument('--gammaD', type=int, default=10, help='weight on the W-GAN loss')
 parser.add_argument('--gammaG', type=float, default=0.001, help='weight on the W-GAN loss')
 parser.add_argument('--lr_d', type=float, default=0.0001, help='learning rate to train discriminator')
 parser.add_argument('--lambda1', type=float, default=10, help='gradient penalty regularizer, following WGAN-GP')
 parser.add_argument('--critic_iter', type=int, default=5, help='critic iteration, following WGAN-GP')
 
-###########
-#术高莫用
-############
 parser.add_argument('--ins_weight', type=float, default=0.001, help='weight of the classification loss when learning G')
 parser.add_argument('--cls_weight', type=float, default=0.0001, help='weight of the score function when learning G')
 parser.add_argument('--nclass_all', type=int, default=50, help='number of all classes')
