@@ -45,17 +45,12 @@ parser.add_argument('--save_interval', type=int, default=10000)
 parser.add_argument('--evl_interval',  type=int, default=50)
 parser.add_argument('--manualSeed', type=int, default=7945, help='manual seed')
 parser.add_argument('--input_dim',     type=int, default=1024, help='dimension of the global semantic vectors')
-###########
-#术高莫用
-############
+
 parser.add_argument('--gammaD', type=int, default=10, help='weight on the W-GAN loss')
 parser.add_argument('--gammaG', type=float, default=0.001, help='weight on the W-GAN loss')
 parser.add_argument('--lr_d', type=float, default=0.0001, help='learning rate to train discriminator')
 parser.add_argument('--lambda1', type=float, default=10, help='gradient penalty regularizer, following WGAN-GP')
 
-###########
-#术高莫用
-############
 parser.add_argument('--prototype',    type=float, default=1, help='weight of the prototype loss')
 parser.add_argument('--cprototype',    type=float, default=1, help='weight of the prototype loss')#0.1
 parser.add_argument('--cons',    type=float, default=0.01, help='weight of the prototype loss')
