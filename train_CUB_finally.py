@@ -4,7 +4,7 @@ import glob
 import json
 import random
 import argparse
-import classifier_embed_contras as classifier2
+import classifier as classifier2
 from utils import *
 import torch.nn as nn
 import torch.optim as optim
