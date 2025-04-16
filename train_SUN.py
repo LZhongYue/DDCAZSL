@@ -22,7 +22,7 @@ from torch.autograd import Variable
 import torch.autograd as autograd
 
 
-#U->T 51.74%  S->T 37.56%  H 43.52%  Best_H [51.74% 37.56% 43.52% | Iter-10100]
+#U->T 51.74%  S->T 37.56%  H 43.52%  Best_H [51.74% 37.56% 43.52% | Iter-10100].
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', default='SUN')
 parser.add_argument('--dataroot', default='./data', help='path to dataset')
